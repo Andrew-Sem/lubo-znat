@@ -47,7 +47,7 @@ const Kids = () => {
                     </div>
                 </div>
             </div>
-            <div className={"absolute left-0 w-full sm:w-auto px-4 sm:px-0 sm:static md:flex md:justify-end"}>
+            <div className={"absolute bottom-0 left-0 w-full sm:w-auto px-4 sm:px-0 sm:static md:flex md:justify-end"}>
                 <MainButton href={"https://google.com"} title={"Записаться"}/>
             </div>
         </MainLayout>
