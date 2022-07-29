@@ -37,6 +37,7 @@ const Kids = () => {
                             title={category.title}
                             active={activeCategory.title === category.title}
                             onClick={() => setActiveCategory(category)}
+                            key={category.title}
                         />
                     )}
                 </div>
